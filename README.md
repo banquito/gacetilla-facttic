@@ -1,12 +1,12 @@
 # gacetilla-facttic
-Gacetillad e presentación de la Federación de coopertivas de trabajo de tecnología, innovación y conocimiento
+Gacetilla de presentación de la Federación de coopertivas de trabajo de tecnología, innovación y conocimiento
 
 
 ### Contenido
 
-En source está cada página de la gacetilla en svg, realizado con Inkscape.
+En `source` está cada página de la gacetilla en svg, realizado con Inkscape.
 
-En pdf se encuentran las mismas páginas guardadas en formato pdf.
+En `pdf` se encuentran las mismas páginas guardadas en formato pdf.
 
 En la raiz se encuentra `gacetilla-facctic.pdf` y `resumen-facttic.pdf`. El primero contiene las 12 páginas unidas. El segundo es un resumen en una sola página.
 
@@ -18,7 +18,7 @@ Para volver a generar el documento combinado, desde consola posicionados en la r
 
     pdfunite pdf/pagina_* gacetilla-facttic.pdf
 
-**´pdfunite´ es parte del paquete poppler-utils**
+**`pdfunite` es parte del paquete poppler-utils**
 
 Instalación con apt-get:
 
